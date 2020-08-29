@@ -1,0 +1,75 @@
+body {
+    background-image: url("https://image.freepik.com/free-vector/kawaii_6997-106.jpg");
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+
+}
+
+.block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block__sqreen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.question-sqreen {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-field {
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+
+.answer-field__select {
+    width: 490px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 10px 0;
+}
+
+.answer-field__select:hover {
+    background-color: rgb(115, 243, 115);
+    cursor: pointer;
+}
+
+.card {
+    border: 3px solid blue;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.wrong {
+    background-color: rgb(235, 79, 79);
+}
+
+.list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 500px;
+    width: 150px;
+    margin-left: 20px;
+}
